@@ -5,7 +5,7 @@ pipeline{
         jdk 'JDK-17'
     }
     stages{
-        stage('cl'){
+        stage('c'){
             steps{
                 git branch : 'main',
                 url: 'https://github.com/spring-projects/spring-petclinic.git'
